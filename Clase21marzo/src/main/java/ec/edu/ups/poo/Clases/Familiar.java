@@ -57,10 +57,14 @@ public class Familiar extends Persona{
                 '}';
     }
 
-    public calcularEdad(){
+    public void calcularEdad(){
         Calendar hoy = Calendar.getInstance();
         int anioActual = hoy.get(Calendar.YEAR);
         int mesActual = hoy.get(Calendar.MONTH);
         int diaActual = hoy.get(Calendar.DAY_OF_MONTH);
+
+        int anioNacimiento = fechaNacimiento.get(Calendar.YEAR);
+        int mesNacimiento = fechaNacimiento.get(Calendar.MONTH);
+        int diaNacimiento = fechaNacimiento.get(Calendar.DAY_OF_MONTH);
     }
 }
