@@ -66,5 +66,6 @@ public class Familiar extends Persona{
         int anioNacimiento = fechaNacimiento.get(Calendar.YEAR);
         int mesNacimiento = fechaNacimiento.get(Calendar.MONTH);
         int diaNacimiento = fechaNacimiento.get(Calendar.DAY_OF_MONTH);
+        System.out.println("Hola mundo");
     }
 }
